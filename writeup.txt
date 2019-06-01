@@ -1,0 +1,14 @@
+
+
+
+algorithm method : 
+	genetic algorithm:
+	first, generate number for each space randomly as sample for number of q
+	second, randomly take two elements from sample for all the number, and exchange the random place and randomly transfer, generate new sample for number of q
+	Third, take the previous generation of 2*q sample , calculate the every sample's evaluate function, choice the smallest sample to generate the next generation
+	Fourth, keep generating until the zero conflict sample comes out, end or reach the maximum iteration 
+	
+
+
+
+
